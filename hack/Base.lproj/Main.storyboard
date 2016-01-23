@@ -39,31 +39,30 @@
                                     <rect key="frame" x="300" y="486" width="46" height="30"/>
                                 </variation>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="64j-2h-RI1">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" red="0.42858745559410061" green="1" blue="0.18925534334992244" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="55" y="45" width="291" height="279"/>
-                                </variation>
-                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Company discription " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="43a-i7-dBo">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="121" y="400" width="158" height="30"/>
+                                    <rect key="frame" x="120" y="401" width="158" height="30"/>
                                 </variation>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="64j-2h-RI1">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="55" y="45" width="291" height="279"/>
+                                </variation>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.043253913958339218" green="1" blue="0.99606924583128964" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.043253913958339218" green="1" blue="0.99606924583128964" alpha="0.32183621453900707" colorSpace="calibratedRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="0Iy-Ms-NiX"/>
                                 <exclude reference="CKs-dc-eyp"/>
                                 <exclude reference="Zgg-wr-2x2"/>
-                                <exclude reference="64j-2h-RI1"/>
                                 <exclude reference="43a-i7-dBo"/>
+                                <exclude reference="64j-2h-RI1"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -71,8 +70,8 @@
                                 <include reference="0Iy-Ms-NiX"/>
                                 <include reference="CKs-dc-eyp"/>
                                 <include reference="Zgg-wr-2x2"/>
-                                <include reference="64j-2h-RI1"/>
                                 <include reference="43a-i7-dBo"/>
+                                <include reference="64j-2h-RI1"/>
                             </mask>
                         </variation>
                     </view>
@@ -81,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="475.5" y="586"/>
+            <point key="canvasLocation" x="103" y="202"/>
         </scene>
     </scenes>
 </document>
